@@ -8,6 +8,7 @@ All notable changes to the **Prowler SDK** are documented in this file.
 
 - `bedrock_full_access_policy_attached` check for AWS provider [(#10577)](https://github.com/prowler-cloud/prowler/pull/10577)
 - `iam_role_access_not_stale_to_bedrock` and `iam_user_access_not_stale_to_bedrock` checks for AWS provider [(#10536)](https://github.com/prowler-cloud/prowler/pull/10536)
+- 9 Gmail checks for Google Workspace provider (`gmail_mail_delegation_disabled`, `gmail_shortener_scanning_enabled`, `gmail_external_image_scanning_enabled`, `gmail_untrusted_link_warnings_enabled`, `gmail_pop_imap_access_disabled`, `gmail_auto_forwarding_disabled`, `gmail_per_user_outbound_gateway_disabled`, `gmail_enhanced_pre_delivery_scanning_enabled`, `gmail_comprehensive_mail_storage_enabled`) using the Cloud Identity Policy API [(#10683)](https://github.com/prowler-cloud/prowler/pull/10683)
 
 ---
 
